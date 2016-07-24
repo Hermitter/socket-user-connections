@@ -10,7 +10,7 @@ var path = require('path');
   //Define Public Dir
   app.use(express.static('public'));
   //Server Set Up
-  http.listen(process.env.PORT, process.env.IP, function(){
+  http.listen(/*PORT*/, /*IP*/, function(){
     console.log('Server initiated');
   });
 ////////////////////
